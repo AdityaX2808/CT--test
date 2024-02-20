@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Sharing Platform</h1>
+         <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search recipes...">
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <option value="Breakfast">Breakfast</option>
+                <option value="Lunch">Lunch</option>
+                <option value="Dinner">Dinner</option>
+            </select>    
+    </header>
+    <main>
+        <div id="controls">
+        <button onclick="addRecipe()">Add Recipe</button>
+        <button onclick="deleteRecipe()">Delete Recipe</button>
+        <button onclick="editRecipe()">Edit Recipe</button>
+    </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
